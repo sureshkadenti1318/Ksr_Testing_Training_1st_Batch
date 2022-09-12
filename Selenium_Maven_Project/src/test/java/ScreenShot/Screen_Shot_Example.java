@@ -43,7 +43,7 @@ public class Screen_Shot_Example {
 	
 	}
 
-	
+	//Comman Method 
 	public static  void screenshtmthd(String filename) throws IOException
 	{
 
