@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Suite">
+  <test thread-count="5" parallel="classes" name="Test">
+    <classes>
+      <class name="TestNG.TestNg_Annotation_Order"/>
+      <class name="TestNG.HardAssert"/>
+      <class name="TestNG.Validations_Using_Assertions"/>
+      <class name="TestNG.SoftAssert_Testing"/>
+      <class name="TestNG.TestNg_Annotation_Uses"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
