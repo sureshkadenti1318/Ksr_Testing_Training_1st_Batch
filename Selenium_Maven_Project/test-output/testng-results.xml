@@ -1,249 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="7" failed="4" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-22T20:39:00 IST" name="Suite" finished-at="2022-09-22T20:39:07 IST" duration-ms="6701">
+  <suite started-at="2022-09-27T21:41:39 IST" name="Default suite" finished-at="2022-09-27T21:43:05 IST" duration-ms="86485">
     <groups>
     </groups>
-    <test started-at="2022-09-22T20:39:00 IST" name="Test" finished-at="2022-09-22T20:39:07 IST" duration-ms="6701">
-      <class name="TestNG.Validations_Using_Assertions">
-        <test-method is-config="true" signature="OpenBrowser()[pri:0, instance:TestNG.Validations_Using_Assertions@7e7be63f]" started-at="2022-09-22T20:39:00 IST" name="OpenBrowser" finished-at="2022-09-22T20:39:04 IST" duration-ms="3736" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- OpenBrowser -->
-        <test-method signature="TittleValidation()[pri:1, instance:TestNG.Validations_Using_Assertions@7e7be63f]" started-at="2022-09-22T20:39:04 IST" name="TittleValidation" finished-at="2022-09-22T20:39:04 IST" duration-ms="15" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TittleValidation -->
-        <test-method signature="boolenValidation()[pri:2, instance:TestNG.Validations_Using_Assertions@7e7be63f]" started-at="2022-09-22T20:39:04 IST" name="boolenValidation" finished-at="2022-09-22T20:39:06 IST" duration-ms="2129" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [true] but found [false]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at TestNG.Validations_Using_Assertions.boolenValidation(Validations_Using_Assertions.java:78)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- boolenValidation -->
-        <test-method is-config="true" signature="closingBrower()[pri:0, instance:TestNG.Validations_Using_Assertions@7e7be63f]" started-at="2022-09-22T20:39:06 IST" name="closingBrower" finished-at="2022-09-22T20:39:06 IST" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closingBrower -->
-      </class> <!-- TestNG.Validations_Using_Assertions -->
-      <class name="TestNG.HardAssert">
-        <test-method signature="HardAssert_Test()[pri:0, instance:TestNG.HardAssert@47987356]" started-at="2022-09-22T20:39:00 IST" name="HardAssert_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="11" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [11] but found [10]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [11] but found [10]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:907)
-at org.testng.Assert.assertEquals(Assert.java:917)
-at TestNG.HardAssert.HardAssert_Test(HardAssert.java:16)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- HardAssert_Test -->
-      </class> <!-- TestNG.HardAssert -->
-      <class name="TestNG.TestNg_Annotation_Order">
-        <test-method is-config="true" signature="BeforeSuite_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="BeforeSuite_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeSuite_Test -->
-        <test-method is-config="true" signature="BeforeTest_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="BeforeTest_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeTest_Test -->
-        <test-method is-config="true" signature="BeforeClass_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="BeforeClass_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeClass_Test -->
-        <test-method is-config="true" signature="BeforeMethod_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="BeforeMethod_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod_Test -->
-        <test-method signature="B_UrlTest()[pri:1, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="B_UrlTest" finished-at="2022-09-22T20:39:00 IST" duration-ms="7" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- B_UrlTest -->
-        <test-method is-config="true" signature="AfterMethod_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="AfterMethod_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod_Test -->
-        <test-method is-config="true" signature="BeforeMethod_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="BeforeMethod_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod_Test -->
-        <test-method signature="A_lrtTest()[pri:2, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="A_lrtTest" finished-at="2022-09-22T20:39:00 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- A_lrtTest -->
-        <test-method is-config="true" signature="BeforeMethod_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="BeforeMethod_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- BeforeMethod_Test -->
-        <test-method is-config="true" signature="AfterMethod_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="AfterMethod_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod_Test -->
-        <test-method signature="Test_Check()[pri:3, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="Test_Check" finished-at="2022-09-22T20:39:00 IST" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Test_Check -->
-        <test-method is-config="true" signature="AfterMethod_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="AfterMethod_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterMethod_Test -->
-        <test-method is-config="true" signature="AfterClass_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:00 IST" name="AfterClass_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterClass_Test -->
-        <test-method is-config="true" signature="AfterTest_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:07 IST" name="AfterTest_Test" finished-at="2022-09-22T20:39:07 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterTest_Test -->
-        <test-method is-config="true" signature="AfterSuite_Test()[pri:0, instance:TestNG.TestNg_Annotation_Order@7fee8714]" started-at="2022-09-22T20:39:07 IST" name="AfterSuite_Test" finished-at="2022-09-22T20:39:07 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AfterSuite_Test -->
-      </class> <!-- TestNG.TestNg_Annotation_Order -->
-      <class name="TestNG.SoftAssert_Testing">
-        <test-method signature="SoftAssrt_Test()[pri:1, instance:TestNG.SoftAssert_Testing@4738a206]" started-at="2022-09-22T20:39:00 IST" name="SoftAssrt_Test" finished-at="2022-09-22T20:39:00 IST" duration-ms="11" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [11] but found [10]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [11] but found [10]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at TestNG.SoftAssert_Testing.SoftAssrt_Test(SoftAssert_Testing.java:25)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SoftAssrt_Test -->
-        <test-method signature="SoftAssrt_Test2()[pri:2, instance:TestNG.SoftAssert_Testing@4738a206]" started-at="2022-09-22T20:39:00 IST" name="SoftAssrt_Test2" finished-at="2022-09-22T20:39:00 IST" duration-ms="2" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[The following asserts failed:
-expected [11] but found [10],
-expected [11] but found [100]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: The following asserts failed:
-expected [11] but found [10],
-expected [11] but found [100]
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
-at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
-at TestNG.SoftAssert_Testing.SoftAssrt_Test2(SoftAssert_Testing.java:41)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SoftAssrt_Test2 -->
-      </class> <!-- TestNG.SoftAssert_Testing -->
-      <class name="TestNG.TestNg_Annotation_Uses">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestNG.TestNg_Annotation_Uses@66d3eec0]" started-at="2022-09-22T20:39:00 IST" name="openBrowser" finished-at="2022-09-22T20:39:02 IST" duration-ms="1910" status="PASS">
+    <test started-at="2022-09-27T21:41:39 IST" name="Default test" finished-at="2022-09-27T21:43:05 IST" duration-ms="86485">
+      <class name="TestNG.DataProvider_Concept">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:41:39 IST" name="openBrowser" finished-at="2022-09-27T21:41:41 IST" duration-ms="2080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method signature="B_UrlTest()[pri:1, instance:TestNG.TestNg_Annotation_Uses@66d3eec0]" started-at="2022-09-22T20:39:02 IST" name="B_UrlTest" finished-at="2022-09-22T20:39:04 IST" duration-ms="1402" status="PASS">
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:41:41 IST" name="loginValidation" data-provider="testdata" finished-at="2022-09-27T21:42:45 IST" duration-ms="63479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UN1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- B_UrlTest -->
-        <test-method signature="A_lrtTest()[pri:2, instance:TestNG.TestNg_Annotation_Uses@66d3eec0]" started-at="2022-09-22T20:39:04 IST" name="A_lrtTest" finished-at="2022-09-22T20:39:07 IST" duration-ms="3243" status="PASS">
+        </test-method> <!-- loginValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:42:45 IST" name="loginValidation" data-provider="testdata" finished-at="2022-09-27T21:42:54 IST" duration-ms="9063" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UN1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- A_lrtTest -->
-        <test-method signature="Test_Check()[pri:3, instance:TestNG.TestNg_Annotation_Uses@66d3eec0]" started-at="2022-09-22T20:39:07 IST" name="Test_Check" finished-at="2022-09-22T20:39:07 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- loginValidation -->
+        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:42:54 IST" name="loginValidation" data-provider="testdata" finished-at="2022-09-27T21:43:03 IST" duration-ms="9410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UN1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pwd1]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test_Check -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:TestNG.TestNg_Annotation_Uses@66d3eec0]" started-at="2022-09-22T20:39:07 IST" name="browserClose" finished-at="2022-09-22T20:39:07 IST" duration-ms="113" status="PASS">
+        </test-method> <!-- loginValidation -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:43:03 IST" name="browserClose" finished-at="2022-09-27T21:43:05 IST" duration-ms="2428" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
-      </class> <!-- TestNG.TestNg_Annotation_Uses -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestNG.DataProvider_Concept -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
