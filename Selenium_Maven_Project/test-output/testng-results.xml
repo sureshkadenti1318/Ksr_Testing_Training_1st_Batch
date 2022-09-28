@@ -1,69 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-27T21:41:39 IST" name="Default suite" finished-at="2022-09-27T21:43:05 IST" duration-ms="86485">
+  <suite started-at="2022-09-28T20:22:36 IST" name="Default suite" finished-at="2022-09-28T20:22:36 IST" duration-ms="85">
     <groups>
     </groups>
-    <test started-at="2022-09-27T21:41:39 IST" name="Default test" finished-at="2022-09-27T21:43:05 IST" duration-ms="86485">
-      <class name="TestNG.DataProvider_Concept">
-        <test-method is-config="true" signature="openBrowser()[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:41:39 IST" name="openBrowser" finished-at="2022-09-27T21:41:41 IST" duration-ms="2080" status="PASS">
+    <test started-at="2022-09-28T20:22:36 IST" name="Default test" finished-at="2022-09-28T20:22:36 IST" duration-ms="85">
+      <class name="TestNG.Different_Parameters_TestMethod">
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:41:41 IST" name="loginValidation" data-provider="testdata" finished-at="2022-09-27T21:42:45 IST" duration-ms="63479" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UN1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pwd1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:42:45 IST" name="loginValidation" data-provider="testdata" finished-at="2022-09-27T21:42:54 IST" duration-ms="9063" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UN1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pwd1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method signature="loginValidation(java.lang.String,java.lang.String)[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:42:54 IST" name="loginValidation" data-provider="testdata" finished-at="2022-09-27T21:43:03 IST" duration-ms="9410" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[UN1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pwd1]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginValidation -->
-        <test-method is-config="true" signature="browserClose()[pri:0, instance:TestNG.DataProvider_Concept@5fbdfdcf]" started-at="2022-09-27T21:43:03 IST" name="browserClose" finished-at="2022-09-27T21:43:05 IST" duration-ms="2428" status="PASS">
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- TestNG.DataProvider_Concept -->
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Login()[pri:0, instance:TestNG.Different_Parameters_TestMethod@6631f5ca]" started-at="2022-09-28T20:22:36 IST" name="Login" finished-at="2022-09-28T20:22:36 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- TestNG.Different_Parameters_TestMethod -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
